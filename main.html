@@ -7,27 +7,28 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <div class="layout_header">
-        <div class="menu">
-            <strong class="store">STORE<img src="./store/img/arrowdown.png" class="arrow"></strong>
-            <ul class="dropdown-content">
-                <li>베스트 상품</li>
-                <li>티,니트</li>
-                <li>팬츠</li>
-                <li>아우터</li>
-                <li>셔츠</li>
-                <li>악세사리</li>
-                <li>슈즈</li>
-                <li>세일</li>
-            </ul>
-        </div>
+    <div class="layout_left_menu">
+        <strong class="store">STORE<img src="./store/img/arrowdown.png" class="arrow"></strong>
+        <ul class="dropdown-content">
+            <a href="#">베스트 상품</a>
+            <a href="#">티,니트</a>
+            <a href="#">팬츠</a>
+            <a href="#">아우터</a>
+            <a href="#">셔츠</a>
+            <a href="#">악세사리</a>
+            <a href="#">슈즈</a>
+            <a href="#">세일</a>
+        </ul>
     </div>
     <div class="layout_log_menu">
-        <span id="language">korea</span>
-        <span id="join">회원가입</span>
-        <span id="login">로그인</span>
-        <span><img src="./store/img/search.png" alt="검색표시" class="search"></span>
-        <span><img src="./store/img/mypage.png" alt="마이페이지표시" class="mypage"></span>
+        <a href="#" id="language">korea</a>
+        <ul id="language_menu">
+            <li href="#"><a href="#">english</a></li>
+        </ul>
+        <a href="#" id="join">회원가입</a>
+        <a id="login">로그인</a>
+        <a><img src="./store/img/search.png" alt="검색표시" class="search"></a>
+        <a><img src="./store/img/mypage.png" alt="마이페이지표시" class="mypage"></a>
     </div>
     <div class="layout_main">
         <div class="title">
@@ -38,12 +39,14 @@
                 <li class="recode1">
                     <img src="./store/img/p1.jpg">
                     <div class="info">
-                        아이템 정보
+                        <a href="#">COMMEMORATE HOOD SWEAT T Beige</a><br>
+                        59,000won
                     </div>
                 </li>
                 <li class="recode2"><img src="./store/img/p2.jpg">
                     <div class="info">
-                        아이템 정보
+                        <a href="#">FLIGHT WOOL JACKET BlueGreen</a><br>
+                        198,000won
                     </div>
                 </li>
             </ul>
