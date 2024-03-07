@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 4vh;
+    min-width: 1280px;
+    background: white;
+}
+
+.nav {
+    position: relative;
+top: 0px;
+    width: 1280px;
+    min-width: 1280px;
+    margin: 0px auto;
+    height: 100%;
+    background-color: white;
+}
+
+.menu1 {
+    position: relative;
+    top: 10px;
+    float: left;
+    width: 180px;
+    cursor: pointer;
+}
+
+.menu2 {
+    position: relative;
+    top: 10px;
+    float: left;
+    width: 140px;
+    cursor: pointer;
+}
+
+.menu3 {
+    position: relative;
+    top: 10px;
+    float: left;
+    width: 140px;
+    cursor: pointer;
+}
+
+.menu4 {
+    position: relative;
+    top: 10px;
+    float: left;
+    width: 140px;
+    cursor: pointer;
+}
+
+.menu5 {
+    position: relative;
+    top: 10px;
+    float: left;
+    width: 140px;
+    cursor: pointer;
+}
+
+.main {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    min-width: 1280px;
+    min-height: 90vh;
+    background-color: rgb(240, 240, 240);
+}
+
+.main .section1 {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1280px;
+    height: 650px;
+}
+
+.main .section1 .img1 {
+    width: 1280px;
+    height: 650px;
+}
+
+.main .section2 {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1280px;
+    height: 300px;
+}
+
+.main .section3 {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 1280px;
+    height: 300px;
+}
+
+.main .section4 {
+    padding-top: 50px;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 1280px;
+    height: 450px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    min-width: 1280px;
+    height: 5vh;
+    background-color: rgb(240, 240, 240);
+}
+
+.main .section2 .text1 {
+    font-size: 24pt;
+}
+
+.main .section2 .text2 {
+    position: absolute;
+    left: 600px;
+    font-weight: bold;
+}
+
+.main .section2 .img2 {
+    border-radius: 50%;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url("./store/img/p1.jpg");
+}

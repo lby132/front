@@ -4,89 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            margin: 0;
-        }
-
-        .header {
-            position: relative;
-            top: 0px;
-            width: 100%;
-            min-width: 1280px;
-            height: 5vh;
-            background-color: black;
-        }
-
-        .nav {
-            position: relative;
-            top: 0px;
-            width: 1280px;
-            min-width: 1280px;
-            margin: 0px auto;
-            height: 100%;
-            background-color: white;
-        }
-
-        .main {
-            position: relative;
-            top: 0px;
-            width: 100%;
-            min-width: 1280px;
-            height: 90vh;
-            background-color: rgb(240, 240, 240);
-        }
-
-        .footer {
-            position: relative;
-            width: 100%;
-            min-width: 1280px;
-            height: 5vh;
-            background-color: brown;
-        }
-        .menu1{
-            position: relative;
-            float: left;
-            width: 180px;
-        }
-        .menu2{
-            position: relative;
-            float: left;
-            width: 140px;
-        }
-        .menu3{
-            position: relative;
-            float: left;
-            width: 140px;
-        }
-        .menu4{
-            position: relative;
-            float: left;
-            width: 140px;
-        }
-        .menu5{
-            position: relative;
-            float: left;
-            width: 140px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="./ex.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
+    <div class="header">
+        <div class="nav">
             <div class="menu1">회사이름</div>
-            <div class="menu2">메인 페이지</div>
-            <div class="menu3">회사 역사</div>
+            <div class="menu2">메인페이지</div>
+            <div class="menu3">회사역사</div>
             <div class="menu4">예약현황</div>
             <div class="menu5">QNA</div>
-        </nav>
-    </header>
-    <main class="main">
-        <section></section>
-        <section></section>
-        <section></section>
-    </main>
-    <footer class="footer"></footer>
+        </div>
+    </div>
+    <div class="main">
+        <section class="section1">
+            <div><img class="img1" src="./store/img/p1.jpg" alt=""></div>
+        </section>
+        <section class="section2">
+            <div class="text1">xxx옷가게</div>
+            <div class="text2">옷가게입니다.</div>
+            <div class="img2"></div>
+        </section>
+        <section class="section3">
+            <form action="./index2.html">
+                <div><label>이름</label><input type="text"></div>
+                <div><label>핸드폰번호</label><input type="text"></div>
+                <div><label>인증</label><input type="text"></div><br>
+                <input type="submit" value="예약">
+            </form>
+        </section>
+        <section class="section4">
+            
+        </section>
+    </div>
+    <div class="footer">
+
+    </div>
 </body>
 </html>
