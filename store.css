@@ -22,6 +22,9 @@ body {
 
 .main {
     position: relative;
+    margin: 0 auto;
+    padding-top: 340px;
+    left: 300px;
     width: 100%;
     height: 90vh;
 }
@@ -39,7 +42,7 @@ a {
 }
 
 ul {
-    list-style:none;
+    list-style: none;
 }
 
 .language_menu {
@@ -67,9 +70,16 @@ ul {
 }
 
 .layout_left {
-    position: relative;
-    top: 50px;
+    position: fixed;
     left: 50px;
+    top: 50px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.50);
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.50); */
 }
 
 .category_list {
@@ -93,13 +103,7 @@ ul {
     cursor: pointer;
 }
 
-.main {
-    position: relative;
-    margin: 0 auto;
-    bottom: 140px;
-    left: 100px;
-    width: 80%;
-}
+
 .main .text {
     font-size: 24pt;
     line-height: 24px;
@@ -141,4 +145,15 @@ ul {
     position: relative;
     width: 100%;
     margin: 0 auto 0;
+}
+
+.title2 {
+    padding-top: 50px;
+}
+
+.inquiry {
+    position: relative;
+    padding-top: 10px;
+    line-height: 30px;
+    font-size: 14px;
 }
