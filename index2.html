@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레이아웃만들기</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .inner {
+            width: 1200px;
+            margin: auto;
+            height: 1080px;
+            background: #fc6;
+        }
+        header {
+            height: 200px;
+            background: #47b749;
+        }
+        .side {
+            background: #6a5ea6;
+            width: 338px;
+            height: 679px;
+            float: left;
+        }
+        .con {
+            background: #ec755d;
+            height: 679px;
+            width: 862px;
+            float: left;
+        }
+        .contents::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        footer {
+            background: #333;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="inner">
+            <header></header>
+            <div class="contents">
+                <aside class="side"> Aside</aside>
+                <article class="con"> Contents</article>
+            </div>
+            <footer></footer>
+        </div>
+    </div>
+</body>
+</html>

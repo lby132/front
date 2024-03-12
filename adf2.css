@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.header {
+    background: white;
+}
+
+.header-inner {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.user img {
+    width: 25px;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    color: orange;
+    height: 80px;
+    padding-top: 22px;
+}
+
+.logo h1 a {
+    text-decoration: none;
+    color: orange;
+}
+
+.menu {
+    width: calc(100% - 200px);
+    float: left;
+    height: 80px;
+    text-align: center;
+}
+
+.menu_ul {
+    display: inline-block;
+}
+
+.menu_ul li {
+    float: left;
+    list-style: none;
+}
+
+.menu_ul li a {
+    display: block;
+    text-decoration-line: none;
+    color: black;
+    padding: 29px 20px;
+}
+
+.menu_ul li a:hover {
+    color: orange;
+}
+
+.user {
+    width: 100px;
+    height: 80px;
+    padding-top: 23px;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.wrapper {
+    width: 620px;
+    background-color: white;
+    padding: 30px 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.wrapper__head__title {
+    font-size: 32px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#point {
+    display: block;
+    padding-top: 15px;
+    color: orange;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.wrapper__head {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted black;
+}
+
+.wrapper__head__sub {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.wrapper__body {
+    border: 1px solid #eeeeee;
+    padding: 20px 20px;
+}
+
+.diary-title {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+
+.diary-date {
+    text-align: right;
+}
+

@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(240, 240, 240);
+}
+
+.inner {
+    width: 900px;
+    height: 600px;
+    margin: 200px auto;
+    border: 1px solid black;
+    border-radius: 2%;
+    background: white;
+}
+
+.title {
+    width: 800px;
+    height: 50px;
+    margin: 50px auto;
+    background: orange;
+}
+
+.title .text {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.content {
+    width: 800px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.text2 {
+    font-size: 20pt;
+    color: orange;
+    text-decoration-line: underline;
+}
+
+.line {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px dotted black;
+}
+
+.contents {
+    width: 800px;
+    height: 250px;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+.title2 {
+    width: 700px;
+    height: 25px;
+    margin: 20px auto;
+    background: rgb(240, 240, 240);
+}
+
+.text3 {
+    font-weight: bold;
+}
+
+.con {
+    width: 700px;
+    margin: 20px auto;
+}
+
+.cont .text {
+    color: red;
+}
+
+.cont .it {
+    font-size: 15px;
+    color: blue;
+    font-style: italic;
+}
+
+.wether {
+    float: right;
+    right: 30px;
+    padding-top: 60px;
+}

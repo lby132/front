@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inner {
+    width: 1539px;
+    height: 1280px;
+    margin: auto;
+    background: green;
+}
+
+header {
+    width: 1539px;
+    height: 124px;
+    background: indigo;
+}
+
+.contents {
+    width: 1539px;
+    height: 4469px;
+    background: red;
+}
