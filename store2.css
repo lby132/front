@@ -4,21 +4,170 @@
     box-sizing: border-box;
 }
 
-.inner {
-    width: 1539px;
-    height: 1280px;
-    margin: auto;
-    background: green;
+.layout_header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
 }
 
-header {
-    width: 1539px;
-    height: 124px;
-    background: indigo;
+.logo {
+    padding-bottom: 60px;
 }
 
-.contents {
-    width: 1539px;
-    height: 4469px;
-    background: red;
+.logo h1 a {
+    color: black;
+    font-size: 17px;
+}
+
+.layout_header .title2 {
+    padding-top: 30px;
+}
+
+.layout_header h1 {
+    font-size: 15px;
+}
+
+.layout_header .menu {
+    padding: 5px 15px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.title .left span {
+    padding-top: 30px;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.title.active > .open {
+    display: none;
+}
+
+.title > .open {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.title.active > .close {
+    display: inline-block;
+}
+
+.title > .close {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.layout_category {
+    width: 150px;
+    padding: 5px 15px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.layout_log_menu {
+    position: fixed;
+    right: 20px;
+    top: 5px;
+}
+
+.menu_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout_header .inner {
+    padding: 50px 50px;
+}
+
+.inner li {
+    width: 80px;
+    list-style: none;
+}
+
+.sub_menu {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 70%;
+    padding-top: 200px;
+}
+
+.cate_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.cate_list li {
+    width: 33.3%;
+}
+
+.section img {
+    width: 300px;
+}
+
+.info {
+    width: 150px;
+}
+
+.kakao_cs {
+    position: relative;
+    top: 250px;
+}
+
+.footer {
+    width: 100%;
+    margin: 250px 0 0;
+}
+
+.footer .logo {
+    text-align: center;
+}
+
+.footer .cont {
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 50px;
+}
+
+.footer .inner .menu {
+    padding-bottom: 30px;
+}
+
+.footer .inner .menu a { 
+    display: inline-block;
+    width: 150px;
+    font-size: 13px;
+}
+
+.footer_info ul {
+    width: 100%;
+}
+
+.footer_info ul li {
+    display: inline-block;
+    white-space:nowrap;
+    font-size: 13px;
+    width: 145px;
 }
