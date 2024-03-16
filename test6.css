@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainBanner {
+    background-image: url("./store/img/banner.jpg");
+    background-size: cover;
+    height: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBanner .text {
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sidebar {
+    width: 170px;
+}
+
+.mainMenu {
+    padding: 10px 15px;
+    background: orange;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.mainMenu ul { 
+    padding: 0;
+}
+
+.mainMenu ul li {
+    list-style: none;
+}
+
+.mainMenu ul li a {
+    display: block;
+    color: white;
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.writeBtnBox {
+}
+
+.writeBtn {
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.arrow {
+    transition: all 0.3s ease-in-out;
+}
+
+.writeBtn:hover {
+    background: white;
+    color: black;
+}
+
+.writeBtn:hover .arrow {
+    display: inline-block;
+    transform: translateX(15px);
+}
+
+.itemWrapper {
+    background: green;
+}
